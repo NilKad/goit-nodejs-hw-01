@@ -122,9 +122,3 @@ const handleFileWrite = async (filePath, data) => {
 };
 
 module.exports = { listContacts, getContactById, removeContact, addContact };
-
-// handleFileWrite
-// listContacts().then(console.log);
-// getContactById('2').then(console.log);
-// removeContact('2');
-// addContact('a', 'b', 'c');
