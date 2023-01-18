@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/NilKad/goit-nodejs-hw-01/issues"
   },
-  "homepage": "https://github.com/NilKad/goit-nodejs-hw-01#readme"
+  "homepage": "https://github.com/NilKad/goit-nodejs-hw-01#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^10.0.0",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.0"
+  }
 }
